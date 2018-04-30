@@ -1,3 +1,12 @@
+# What's different from Leela Chess?
+This is almost faithful clone of Leela chess with the minor difference that MCTS will have a focus area to choose the candidate moves. I aim to replicate the human brain functionality of hyper focussing on one specific area of task/board while paying very little attention to other parts of the board.This will be done by generating hotspot squares and pieces which are on this board, which land on this board and pieces which can land in 1 move will be given more priority.
+Thus the candidate moves for MCTS will be tweaked and it will no longer be really random.
+
+Source Code changes:
+Server: MCTC Candidate moves changed
+Client: Default server will be aihello-chess
+
+The rest of the wiki below is the same as Leela Chess.
 # Introduction
 
 This is an adaptation of [GCP](https://github.com/gcp)'s [Leela Zero](https://github.com/gcp/leela-zero/)
