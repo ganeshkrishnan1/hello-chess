@@ -9,6 +9,16 @@ Source Code changes:
 Server: MCTC Candidate moves changed
 Client: Default server will be aihello-chess
 
+#Resources
+
+[How to build your own AlphaZero AI](https://medium.com/applied-data-science/how-to-build-your-own-alphazero-ai-using-python-and-keras-7f664945c188) using python and kera
+
+Another excellent source explaining MCTS 
+
+[What is AlphaZero. How and Why it works](http://tim.hibal.org/blog/alpha-zero-how-and-why-it-works/)
+
+
+
 The rest of the wiki below is the same as Leela Chess.
 # Introduction
 
